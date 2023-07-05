@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend ToDreams App",
+  "main": "./src/server.js",
+  "scripts": {
+    "server-dev": "nodemon"
+  },
+  "author": "Leonardo B. Silva",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "5.1.0",
+    "colors": "1.4.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "express-rate-limit": "6.7.0",
+    "express-validator": "6.15.0",
+    "jsonwebtoken": "9.0.0",
+    "mongoose": "7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.21"
+  }
+}
